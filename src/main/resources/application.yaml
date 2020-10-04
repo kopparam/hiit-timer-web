@@ -2,7 +2,10 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: FGjD4NKAKX
+    password: EmTxF564kL
   jpa:
     hibernate:
       ddl-auto: validate
+  data:
+    rest:
+      base-path: /api/rest

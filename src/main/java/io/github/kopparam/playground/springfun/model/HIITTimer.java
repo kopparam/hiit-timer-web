@@ -18,6 +18,8 @@ import java.util.UUID;
 
 @Builder
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "timer")
 public class HIITTimer {
