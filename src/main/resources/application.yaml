@@ -1,0 +1,17 @@
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:springfun;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE
+#  jpa:
+#    hibernate:
+#      ddl-auto: validate
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQL10Dialect
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springfun
+    username: springfun
+    password: springfun
+  jpa:
+    hibernate:
+      ddl-auto: validate
