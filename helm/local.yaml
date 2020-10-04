@@ -1,0 +1,6 @@
+image:
+  repository: springfun
+  tag: "latest"
+
+env:
+  SERVER_PORT: 80
